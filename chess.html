@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Queen Attack</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Queen Move Checker</h1>
+
+      <form id="chess">
+        <div class="form-group">
+          <label for="queen">Enter the Queen's location:</label>
+          <input id="queen0" type="number">
+          <input id="queen1" type="number">
+          <br>
+          <label for="target">Enter the target's location:</label>
+          <input id="target0" type="number">
+          <input id="target1" type="number">
+
+        </div>
+
+        <button type="submit" class="btn">Find out!</button>
+      </form>
+
+      <div id="result">
+        <p>The Queen can <span class="not"></span> attack the target.</p>
+      </div>
+    </div>
+  </body>
+</html>
