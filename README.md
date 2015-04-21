@@ -1,4 +1,4 @@
-# Anagram Checker (JS) for Epicodus
+# Queen Attack (JS) for Epicodus
 ## by Tanner Heffner & Virginie Trubiano
 ### Date: April 6th, 2015
 #### Description
